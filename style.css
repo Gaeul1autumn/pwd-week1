@@ -8,10 +8,13 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    margin: 0;
+    padding: 0;
+
 }
 
 header {
-    background: #4CAF50;
+    background: #464cf2;
     color: white;
     text-align: center;
     padding: 2rem;
@@ -21,20 +24,25 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
+    flex-grow: 1; 
 }
 
 section {
-    background: #f4f4f4;
-    padding: 2rem;
-    border-radius: 8px;
+    background: #e8e1f6;
+    width: 500px;
+    height: 150px;
+    padding-top: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 button {
-    background: #4CAF50;
-    color: white;
+    background: #0011fa;
+    color: rgb(245, 0, 0);
     border: none;
-    padding: 10px 20px;
+    padding: 10px 25px;
     cursor: pointer;
     border-radius: 4px;
     font-size: 16px;
@@ -42,7 +50,7 @@ button {
 }
 
 button:hover {
-    background: #45a049;
+    background: #ff00d9;
 }
 
 footer {
@@ -50,4 +58,10 @@ footer {
     padding: 1rem;
     background: #333;
     color: white;
+}
+
+.wrapper {
+  display: flex;         
+  flex-direction: column;
+  min-height: 100vh;     
 }
